@@ -1,13 +1,13 @@
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 .logo-container {
@@ -29,16 +29,29 @@
 .navbar {
     display: flex;
     gap: 20px;
-  }
+}
   
-  .nav-link {
+.nav-link {
     text-decoration: none;
     color: #555;
-    font-size: 18px;
-  }
+    font-size: .9rem;
+}
   
-  .nav-link.active {
-    color: #000;
+.nav-link.active {
+    color: #331d12;
     font-weight: bold;
-    border-bottom: 2px solid #000;
-  }
+    border-bottom: 2px solid #331d12;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #331d12;
+    color: #f2f2f2;
+}
+
+.ad-banner-text {
+    font-size: .9rem;
+    margin: 5px;
+}

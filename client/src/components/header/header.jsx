@@ -8,11 +8,20 @@ const Header = () => {
     <div className="header">
       <div className="top-header">
         <div className="top-left-header">
-          <div className="logo-container">
-            <img className="logo" src={logo} alt="Logo" />
-            <h1 className="web-name">Tafach Ambassador</h1>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive? 'nav-link active' : 'nav-link'
+            }
+          >
+            <div className="logo-container">
+              <img className="logo" src={logo} alt="Logo" />
+              <h1 className="web-name">Tafach Ambassador</h1>
+            </div>
+          </NavLink>
           </div>
-        </div>
+
+        
 
         <div className="top-middle-header">
           <nav className="navbar">
@@ -38,7 +47,9 @@ const Header = () => {
         {/*<div className="top-right-header"></div>*/}
       </div>
 
-      <div className="bottom-header">{/* Add content here if needed */}</div>
+      <div className="bottom-header">
+        <h4 className='ad-banner-text'>Holiday Sale! {'(Advertisment here)'}</h4>
+      </div>
     </div>
   );
 };
