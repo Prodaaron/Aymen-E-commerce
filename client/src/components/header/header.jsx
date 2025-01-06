@@ -35,7 +35,7 @@ const Header = () => {
           </nav>
         </div>
 
-        <div className="top-right-header">{/* Add content here if needed */}</div>
+        {/*<div className="top-right-header"></div>*/}
       </div>
 
       <div className="bottom-header">{/* Add content here if needed */}</div>

@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin: 0;
+}
+
+.web-name {
+    font-size: 1.5em;
+    margin-left: 10px;
+    color: #331d12;
+}
