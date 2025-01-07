@@ -1,9 +1,10 @@
 import React from 'react'
+import FirstBanner from '../components/1st-banner/firstBanner.jsx'
 
 const home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <FirstBanner />
     </div>
   )
 }
