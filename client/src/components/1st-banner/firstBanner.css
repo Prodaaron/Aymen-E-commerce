@@ -33,6 +33,12 @@
     transition: all .15s ease-in-out;
 }
 
+.link p {
+    margin: 0;
+    filter: drop-shadow(0 0 6px rgb(255, 252, 252));
+    border-bottom: 1px solid transparent;
+}
+
 .link:hover p {
     border-bottom: #ffffff 1px solid;
 }
@@ -41,7 +47,3 @@
     margin-left: 5px;
 }
 
-.link p {
-    margin: 0;
-    filter: drop-shadow(0 0 6px rgb(255, 252, 252));
-}
