@@ -28,7 +28,7 @@
 
 .right-arrow {
     width: 18px;
-    transform: translateY(1.5px);
+    transform: translateY(1px);
     filter: drop-shadow(0 0 3px rgb(255, 255, 255));
     transition: all .15s ease-in-out;
 }
