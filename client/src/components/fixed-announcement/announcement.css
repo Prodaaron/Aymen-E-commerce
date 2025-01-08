@@ -1,0 +1,36 @@
+.announcement-container {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 1);
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.announcement-container p {
+    font-size: .8rem;
+    color: black;
+    margin: 0;
+}
+
+.announcement-container h3 {
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}

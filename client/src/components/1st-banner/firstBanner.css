@@ -7,7 +7,20 @@
     display: flex;
     justify-content: start;
     align-items: end;
+    animation: slideshow 30s infinite;
 }
+
+/* @keyframes slideshow {
+    0% {
+        background-image: url(../../assets/images/banner/1st_banner.jpg);
+    } 10% {
+        background-image: url(../../assets/images/banner/2nd_banner.png);
+    } 50% {
+        background-image: url(../../assets/images/banner/2nd_banner.png);
+    } 60% {
+        background-image: url(../../assets/images/banner/1st_banner.jpg);
+    }
+} */
 
 .links {
     margin-left: 50px;

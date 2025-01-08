@@ -5,11 +5,14 @@ import Home from './pages/home.jsx';
 import About from './pages/about.jsx';
 import Contact from './pages/contact.jsx';
 import Footer from './components/footer/footer.jsx';
+import FixedAnnouncement from './components/fixed-announcement/fixedAnnouncement.jsx';
 
 function App() {
 
   return (
     <>
+
+      <FixedAnnouncement /> {/* Use the FixedAnnouncement component here */}
       <Router>
         <Header /> {/* Use the Header component here */}
         <Routes>
