@@ -1,23 +1,43 @@
-import React from 'react'
-import './featured.css'
-import sampleImg from '../../assets/images/product-img/blue-bead-caramel-flavored-toping.webp'
+import React from 'react';
+import './featured.css';
+import featuredProductData from '../../../../server/data/featuredProducts'; // Ensure this path is correct
 
 const featured = () => {
   return (
-    <div>
-      <h3>Featured</h3>
-      {/* Add featured products */}
-      <div className="product-container">
-        <img src={sampleImg} alt="product image" />
-        <div className="info">
-            <h4>Product Name</h4>
-            <div className="availability">
-                In Stock
+    <div className="products-wrapper">
+      <h3 id="productShowcase">Featured</h3>
+      <div className="products-list">
+        {featuredProductData.map((product) => {
+          let availabilityText;
+          let color;
+
+          // Determine the text and color based on stock
+          if (product.productAvailability > 5) {
+            availabilityText = 'In Stock';
+            color = 'green';
+          } else if (product.productAvailability >= 1) {
+            availabilityText = `Only ${product.productAvailability} available`;
+            color = 'orange';
+          } else {
+            availabilityText = 'Out of Stock';
+            color = 'red';
+          }
+
+          return (
+            <div className="product-container" key={product.productId}>
+              <img src={product.productImage} alt={product.productName} />
+              <div className="info">
+                <h4>{product.productName}</h4>
+                <div className="availability" style={{ color }}>
+                  {availabilityText}
+                </div>
+              </div>
             </div>
-        </div>
+          );
+        })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default featured
+export default featured;
