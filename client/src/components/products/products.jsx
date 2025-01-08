@@ -5,7 +5,7 @@ import productData from '../../../../server/data/products.js';
 const Products = () => {
   return (
     <div className="products-wrapper">
-      <h3 id="featured">Products</h3>
+      <h3 id="productShowcase">Products</h3>
       <div className="products-list">
         {productData.map((product) => {
           let availabilityText;

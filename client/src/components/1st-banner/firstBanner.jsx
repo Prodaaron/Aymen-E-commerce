@@ -6,7 +6,7 @@ const firstBanner = () => {
   return (
     <div className='banner-container'>
       <div className="links">
-        <a className='link' href="#featured">
+        <a className='link' href="#productShowcase">
           <p>Shop Now</p> 
           <img className='right-arrow' src={rightArrow} alt="" />
         </a>
