@@ -11,7 +11,7 @@
   }
   
   .product-container {
-    width: 16%;
+    width: 16.1%;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -31,7 +31,7 @@
   }
   
   .product-container h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #333;
   }
   
