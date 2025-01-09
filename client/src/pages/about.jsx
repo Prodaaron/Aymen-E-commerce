@@ -6,7 +6,7 @@ const about = () => {
     <div className="about-page">
       <h1>About Us</h1>
       <div className="content-wrapper">
-        <h3>Dear beloved clients and customers,</h3>
+        <h3>Dear valued clients and customers,</h3>
         <p>
           Welcome to <strong>Tafach Ambassador</strong>, your trusted partner in premium cake ingredients!
         </p>
