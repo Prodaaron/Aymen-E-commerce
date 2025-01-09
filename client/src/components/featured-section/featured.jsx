@@ -5,7 +5,7 @@ import featuredProductData from '../../../../server/data/featuredProducts'; // E
 const featured = () => {
   return (
     <div className="products-wrapper">
-      <h3 id="productShowcase">Featured</h3>
+      <h3 id="">Featured</h3>
       <div className="products-list">
         {featuredProductData.map((product) => {
           let availabilityText;

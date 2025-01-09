@@ -1,0 +1,25 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 47vh;
+}
+
+.social-media-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+}
+
+.social-media-container:hover .social-media-icon:not(:hover) {
+    filter: grayscale(100%);
+    opacity: .7;
+}
+
+.social-media-icon-contact {
+    width: 80px;
+}

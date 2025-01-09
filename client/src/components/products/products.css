@@ -50,7 +50,7 @@
   color: #ff0000; /* Red for out-of-stock */
 }  
 
-#productShowcase {
+.products-wrapper h3 {
   margin-left: 10px;
   color: #331d12;
 }
