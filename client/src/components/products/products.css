@@ -54,3 +54,26 @@
   margin-left: 10px;
   color: #331d12;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+  .product-container {
+    width: 25%;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .product-container {
+    width: 40%;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .product-container {
+    width: 35%;
+    margin: 5px;
+  }
+}

@@ -34,7 +34,7 @@ const footer = () => {
       <div className="bottom-footer">
         <div className="bottom-left-footer">
             <div className="copyright">
-                &copy; 2024 <img className='footer-logo' src={logo} alt="" />Tafach Ambassador. All rights reserved.
+                &copy; 2024 <img className='footer-logo' src={logo} alt="" /> <span>Tafach Ambassador.</span> All rights reserved.
             </div>
         </div>
         

@@ -117,3 +117,11 @@
     opacity: .9;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .top-footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+}

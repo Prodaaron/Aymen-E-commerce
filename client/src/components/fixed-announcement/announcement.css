@@ -34,3 +34,19 @@
     padding-bottom: 5px;
     border-bottom: 1px solid grey;
 }
+
+@media screen and (max-width: 480px) {
+    .announcement-container {
+        top: 70px;
+        left: 15px;
+        right: 15px;
+    }
+
+    .announcement-container h3 {
+        font-size: .7rem;
+    }
+
+    .announcement-container p {
+        font-size: .6rem;
+    }
+}

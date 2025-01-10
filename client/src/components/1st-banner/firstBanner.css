@@ -60,3 +60,37 @@
     margin-left: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    .banner-container {
+        height: 300px;
+        justify-content: center;
+    }
+
+    .links {
+        margin-bottom: 20px;
+    }
+
+    .link p {
+        font-size:.7rem;
+        background-color: white;
+        padding: 8px 12px;
+        border-radius: 1.5rem;
+        color: #331d12;
+    }
+
+    .link p:active {
+        background-color: #f2f2f2;
+        color: #331d12;
+        border: 1px solid #331d12;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-container {
+        height: 200px;
+    }
+
+    .copyright span {
+        display: none;
+    }
+}
