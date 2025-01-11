@@ -1,8 +1,8 @@
 const featuredProducts = [
     {
-        productId: 8,
-        productImage: 'https://previews.dropbox.com/p/thumb/ACjHbgSHIGfUMEc5gcb_eZ-2E8_TN0iyz44vuKMzC5PwKgWVKq6kYjr8y0ReCWO3FXAJzLx_qFwsLoV5Vr9lv-J2T1AhDY6bslJwagW9XDuhfpKh7m8qQ9ZH5PtafuaJ8njxd87tS0o3Ge6Egicus_2tUrMKbVWo1Osmb-AcRvEccC9EYcpGsw0igai6l2dmLFGDo9qns8Z6zBfmpydnzAw9tSeFgEBIv-JK7a4fOIi3jV_tPXuOfCCrPc3-i-hBAkndUJ0HmHkS3U-pLJE5glPj_J1FOeyXKOiWVmXIwtQtAkzhiJiOoiwRNcS5gFZwe2M/p.png',
-        productName: 'Blue Bead - Pasta katkl maddesi',
+        productId: 31,
+        productImage: 'https://uccb2475301bfeefa2618d9fe00a.previews.dropboxusercontent.com/p/thumb/ACgJzeyXQ2ELvaIxOTzKsd9xlRX0DqT8MU7qmZK_2STbivW7pcP_RkMNNbLYEAIQcHf0N9P2i9qoJCh6yDcqRJSOQR8HVapbmJinNSpyZfj1gGzVi2aE5gsGouPE9fFO4YIP5VrxoU56uILqXT35iTyJjwV3_akhi4tCgviEx9EXV4IJIkcodySFv_bqYANugRf2R9bOzrFIUmblsZUgYeVIDhio8hBhFDMSzmggAlxQTxnC9a7IydILRW4iHsL3TXOCCTZVzTcixK1VXYPWNtT03cJTYDzSWeNiWxbst-yhiZvRj8-FPToCRovAHNnBAxrOmsMDlYJ7r2bInHM8JaD9_2PrLUAELbCeiXm7Xs6d5A/p.png',
+        productName: 'Taz krem santi | whipped cream',
         productAvailability: 50,
         productDescription: {
             title: 'Test Product Description',
@@ -12,10 +12,34 @@ const featuredProducts = [
     },
 
     {
-        productId: 7,
-        productImage: 'https://previews.dropbox.com/p/thumb/ACha9X1Ovmw1OyRFjVM1sAt1E_LwuYQQ1MtC0ZN22O5SrR4XYp_dM7UI_R8CxQQ4WpD8hbfgg7lve4tYD-nzIjRndWsRBfVj_TWZnJnKPi5byfkznqGp2cIxr333taPy4pG7X1iePiclbGXi14MERlF6Qe7Gbmp7VdsD5IfFKmL8YKJQY2hxh1y343fXAuaVbisUdRC2GDCHcN0FlLvT5qGf-hns6hwAgYT8WuF_DFxlXQWoo8q7LyxPxR2NNriHT65SCdikPbldTqMle8vUQ_g5B6JSOIpTOGiD9ROCTbcLTTnY7i_sy9u8vitbPG42OIM/p.png',
-        productName: 'Blue Bead - Pandispanya miksi',
-        productAvailability: 2,
+        productId: 23,
+        productImage: 'https://uc3bce5d59f8d268854a6f602879.previews.dropboxusercontent.com/p/thumb/ACgfvcBnN_kjs2W8GbIrC_Po9QxhUA0lH_RZ3Jb1tX6b5pC5iLzeUwEWeu5HN0e1989ku3ZyQMRkqLeQOeYqwI7KHwxFQFe5OGy2s_EvQKcyxtD9qe-r7nbw6TMv4hG_tz541XdJhe1R8kZ96SRQVdMxvgQQF-y1Bc25Vpkv-snB7TNK40SZv1fUioxa9JqNPPSmHCjcbR0__VkV6j7AKn-vf5wfST_NDg_Ct5UyWcImBfLaL7R3A5KZkAb3AKZDhyUC98qj6NLR53cX_7zJcAuwDuY2ypcOqyAKZpxVgxdujoUtFXjIkaZPkygdqTtKneglSX8fNezBD3KvQ-vDqWaTuBU73FAm2Jp7hnUc4ide8A/p.png',
+        productName: 'Puratos - Satin chocolate cream cake mix',
+        productAvailability: 50,
+        productDescription: {
+            title: 'Test Product Description',
+            content: 'This is a test product description.',
+            price: '950 ETB',
+        }
+    },
+
+    {
+        productId: 11,
+        productImage: 'https://uc3d82da76fb235f32ec88ccc4b9.previews.dropboxusercontent.com/p/thumb/ACjsvnXgo2UYwFtBah34XDsw9bX57mzqL177Eh034Aafisxuc0z5TbJNqI3CdZwGXelMuLkojjyj7tn9fKpVHyHjq5wBlTHDg7Eeae5PQctf1GxHcY5GVHusu4eEpnY6_XpaCcAk4FayViCg_3ZGKFzywzBBGt6_DEztDH56RNAyLrOrhzou1QZnFD-fQa36ko81_t5XFKaArwY48QxmlQsbRDLPzSlznILPTAGgihMwpsVQwzxQ-OwTAaaTMTS6jl5QTpwsLnWA603YvdIVipVMWa5376KHBP_a8Y7lXNWNyhtBUWZPLceEYRPQFOma3EwH-zlZF8WH-3gYVFcP4woGndKu57waAd7BUniT57CGgw/p.png',
+        productName: 'KataKit - Chocolate Lee Wt. 4KG',
+        productAvailability: 4,
+        productDescription: {
+            title: 'Test Product Description',
+            content: 'This is a test product description.',
+            price: '950 ETB',
+        }
+    },
+
+    {
+        productId: 2,
+        productImage: 'https://uc04520fa178a125a68b68d59abf.previews.dropboxusercontent.com/p/thumb/ACg4Qw7r7fn8yWRhjI7jKcpsO3IWLRmyV3GEq88aEgqx-jTAiaUYpB9KzKoDX7tEmsEZKGTfmceIx2F5BxH_MbFvdZNWfaihIWZrIHm0oMEYRGQPHddwRZ3URymKjo7gJWxaemRKAGci8unNJt4OQjTVDbxZk28SOQUNCLb82qPET4DAAmRMiTLvmxYlQqxM486lAXSCNGxrcSAO8q8w3FHtgANoujX9cFidL96aEHz-PANVG8y-WNC_uZh5Yva-aEdxqE7rt-BTJjkNVeGtMj1F7cK-ra4E-Ab2EtV-GTR_9FVRWUWs8b5HqGxGl9gcoFg4hq3jCe9NlAvQpZ-MT0ZGtk_I4oBkwZQLaDbC_gn_yA/p.png',
+        productName: 'Blue Bead - Chocolate flavored toping',
+        productAvailability: 50,
         productDescription: {
             title: 'Test Product Description',
             content: 'This is a test product description.',
@@ -25,35 +49,11 @@ const featuredProducts = [
 
     {
         productId: 3,
-        productImage: 'https://previews.dropbox.com/p/thumb/AChqgTQI7ITdyBi__ElDSQOAbNjRBX3tBDgDL2TbJVS0l2VFRjCfe_CmtMSWtUGTWIbQBeaNTRFaoLXoZSRb96sOU6a7-XPFLFVNEnHIEJihMShflVFJob55x3Hzokjyk5jHgSKwmD5rxvKaQyPVA2sOpRiCPWZHIdwM7sBEW7-LB1JJ5wmOENiXQv-G3T2bFBxRowxp-4S_ZdZCBUh1aLCNFbcsxQFDx16JoCJIf7CghfiZmINGYfe4ssD0I85bvGZMwfZGussC-90_n5hudsYPLaP0hHxKmI-N0alg99MQEc2rOOdkOe-cyJCBgUofE-0/p.png',
+        productImage: 'https://uce7aa07f9d50689a57f2e55935b.previews.dropboxusercontent.com/p/thumb/ACh-tHGNQr6-sNySMN2jf8z0S_cuoyneaPPjLvS8kegf1Ue3dFr0Zlnop3_SbPwILokUbbqKBD5RGWJPBYoNwvdB-cCVnsX4RczAnzjBuqbXwdjSTi4oWwYZlN4aOI46gUHfUqHhHlnf6wF8BiZrhf6LWlYSy_4OgGJXbz4C3oirFVrZTggsG-yVoVmmDgHIOpklOQQbZsIOyw0IFZInEg9jkphLBjzDbTmZsx4pJFXYnDXA716lbJoUMcKdKDsWE35DO0ecz6MAIQVAV1AkwnIrWjm4AI9SO-ry2e4NsTZn59DUUraYhBhq76fEqifB8OQFjfcu9CnxRGOePtMS9bDrPvZhF-8giKcirApmLZa0Bw/p.png',
         productName: 'Blue Bead - Cold Glaze caramel flavored',
         productAvailability: 50,
         productDescription: {
             title: 'Blue Bead - Cold Glaze caramel flavored',
-            content: 'This is a test product description.',
-            price: '950 ETB',
-        }
-    },
-
-    {
-        productId: 4,
-        productImage: 'https://previews.dropbox.com/p/thumb/ACiChWwgM3K7d7_j4bH8V-hDas9Rhd7iGDHW4j8gLthPDC93FcByDK4iqh72lY8LD1-vqu0jcJxBF80L9x6o-AJeiFYOa5RDkAydsIofLPWYEIZ_FWIBcxDzZ1YS8E23h6T7cyi1MHblK0daK5Ie6MthJAIzAwsGeIq7_UBH300vypsTFMwHOlYk3h0u5kH4bMAWxPWwNzlBPEV6upRLfdR4sWSZzcJUatqAdJrGSOaiC8gVO7RyxBbmrV8SSJbemWLEW7dALdZfmSjReNdVO-BXNzAEFkMFX9BZ476fWXxbwQF3LKpymWePH-3_DLBEtRs/p.png',
-        productName: 'Blue Bead - Cold Glaze chocolate flavored',
-        productAvailability: 50,
-        productDescription: {
-            title: 'Test Product Description',
-            content: 'This is a test product description.',
-            price: '950 ETB',
-        }
-    },
-
-    {
-        productId: 1,
-        productImage: 'https://previews.dropbox.com/p/thumb/AChabt7TKx8SoMNifwGYSY5id4d0hJ-NYOZK5o4zrDlWHt9RW7_QKt1YiFLKnN22H4PnnV9g44sulcqWBzf2sULvg6hzEsan6fZWU5EkILg96iT7aUE_llfhUXkaPnTh_bg2bqI5Tf2TneEmm5V2Z6msu94rDA0OfkaaDnT21ju_R0HjqvXwvhD40kKJmX-kanLoVCcbvQa0Owud6CCO2G1X9TPIJV6Eqf8ahyY78bePh4fIQseMudwCWUriKx4mEsbIB8vkKaqum-9kv_y5FcQeonfAzPpKfzRC91NdQVYl0oJLbjbCsEw3BMiVa9_qKbc/p.png',
-        productName: 'Blue Bead - Caramel flavored toping',
-        productAvailability: 50,
-        productDescription: {
-            title: 'Test Product Description',
             content: 'This is a test product description.',
             price: '950 ETB',
         }
