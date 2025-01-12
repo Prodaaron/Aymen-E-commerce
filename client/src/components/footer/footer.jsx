@@ -20,7 +20,7 @@ const footer = () => {
         <div className="top-right-footer">
             <div className="contact-info">
                 <p>Email:  <a href="mailto:tafachambassador@gmail.com">tafachambassador@gmail.com</a></p>
-                <p>Phone:  +1 123-456-7890</p>
+                <p>Phone:  +251 29951146</p>
                 <p>Address: (No shop), AA, Ethiopia, 1000</p>
             </div>
 
