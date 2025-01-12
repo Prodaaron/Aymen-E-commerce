@@ -6,6 +6,8 @@ import About from './pages/about.jsx';
 import Contact from './pages/contact.jsx';
 import Footer from './components/footer/footer.jsx';
 import FixedAnnouncement from './components/fixed-announcement/fixedAnnouncement.jsx';
+import TermsAndConditions from './pages/termsAndConditions.jsx';
+import PrivacyPolicy from './pages/privacyPolicy.jsx';
 
 function App() {
 
@@ -20,6 +22,8 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
+          <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         </Routes>
       </Router>
 

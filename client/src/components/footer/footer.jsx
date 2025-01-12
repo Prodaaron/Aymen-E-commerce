@@ -40,7 +40,8 @@ const footer = () => {
         
         <div className="bottom-right-footer">
             <div className="legal-issues">
-                <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+              
+                <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-and-conditions">Terms & Conditions</a>
             </div>
         </div>
       </div>
