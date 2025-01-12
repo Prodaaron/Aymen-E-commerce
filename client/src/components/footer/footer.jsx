@@ -12,7 +12,7 @@ const footer = () => {
         <div className="top-left-footer">
             <div className="social-media-links">
                 <a href="https://www.instagram.com/tafachambassador/" target='_blank'><img className="social-media-icon" src={Instagram} alt="Instagram" /></a>
-                <a href="https://t.me/tafachambassador"><img className="social-media-icon" src={Telegram} alt="Telegram" /></a>
+                <a href="https://t.me/tafachambassador" target='_blank'><img className="social-media-icon" src={Telegram} alt="Telegram" /></a>
                 <a href="https://www.tiktok.com/@tafach.ambassador?is_from_webapp=1&sender_device=pc" target='_blank'><img className="social-media-icon" src={Tiktok} alt="TikTok" /></a>
             </div>
         </div>
