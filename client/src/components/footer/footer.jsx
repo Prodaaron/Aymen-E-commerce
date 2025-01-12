@@ -11,17 +11,17 @@ const footer = () => {
       <div className="top-footer">
         <div className="top-left-footer">
             <div className="social-media-links">
-                <a href="#"><img className="social-media-icon" src={Instagram} alt="Instagram" /></a>
+                <a href="https://www.instagram.com/tafachambassador/" target='_blank'><img className="social-media-icon" src={Instagram} alt="Instagram" /></a>
                 <a href="#"><img className="social-media-icon" src={Telegram} alt="Telegram" /></a>
-                <a href="#"><img className="social-media-icon" src={Tiktok} alt="TikTok" /></a>
+                <a href="https://www.tiktok.com/@tafach.ambassador?is_from_webapp=1&sender_device=pc" target='_blank'><img className="social-media-icon" src={Tiktok} alt="TikTok" /></a>
             </div>
         </div>
 
         <div className="top-right-footer">
             <div className="contact-info">
-                <p>Email:  <a href="mailto:info@tafachambassador.com">info@tafachambassador.com</a></p>
+                <p>Email:  <a href="mailto:tafachambassador@gmail.com">tafachambassador@gmail.com</a></p>
                 <p>Phone:  +1 123-456-7890</p>
-                <p>Address: 123 Main St, City, State, Zip</p>
+                <p>Address: (No shop), AA, Ethiopia, 1000</p>
             </div>
 
             <div className="newsletter-form">
