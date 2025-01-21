@@ -1,6 +1,6 @@
 import React from 'react';
 import './products.css'; // Add your styles here
-import productData from '../../../../server/data/products.js';
+import productData from '../../../data/products.js';
 
 const Products = () => {
   return (

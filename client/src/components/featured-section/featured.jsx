@@ -1,6 +1,6 @@
 import React from 'react';
 import './featured.css';
-import featuredProductData from '../../../../server/data/featuredProducts'; // Ensure this path is correct
+import featuredProductData from '../../../data/featuredProducts'; // Ensure this path is correct
 
 const featured = () => {
   return (
